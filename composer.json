@@ -1,0 +1,27 @@
+{
+  "name": "vloop/users",
+  "description": "Package",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "users",
+    "module"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vitaly Litvinov",
+      "email": "support@tirrs.ru",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "vloop\\users\\": "src"
+    }
+  }
+}
