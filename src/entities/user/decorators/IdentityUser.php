@@ -1,12 +1,12 @@
 <?php
 
 
-namespace vloop\user\entities\user\decorators;
+namespace vloop\users\entities\user\decorators;
 
 
-use vloop\user\entities\interfaces\User;
-use vloop\user\entities\user\UserSQL;
-use vloop\user\tables\TableUsers;
+use vloop\users\entities\interfaces\User;
+use vloop\users\entities\user\UserSQL;
+use vloop\users\tables\TableUsers;
 use Yii;
 use yii\helpers\VarDumper;
 use yii\web\IdentityInterface;

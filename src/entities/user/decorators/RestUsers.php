@@ -1,11 +1,11 @@
 <?php
 
 
-namespace vloop\user\entities\user\decorators;
+namespace vloop\users\entities\user\decorators;
 
 
-use vloop\user\entities\interfaces\User;
-use vloop\user\entities\interfaces\Users;
+use vloop\users\entities\interfaces\User;
+use vloop\users\entities\interfaces\Users;
 use yii\helpers\VarDumper;
 
 class RestUsers implements Users

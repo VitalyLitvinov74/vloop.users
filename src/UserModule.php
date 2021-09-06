@@ -1,7 +1,7 @@
 <?php
 
 
-namespace vloop\user;
+namespace vloop\users;
 
 
 use Yii;
@@ -13,7 +13,7 @@ class UserModule extends Module
     public function init()
     {
         parent::init();
-        $this->controllerNamespace = 'vloop\user\controllers';
+        $this->controllerNamespace = 'vloop\users\controllers';
         Yii::$app->setComponents([
             'authManager' => [
                 'class' => 'yii\rbac\DbManager',

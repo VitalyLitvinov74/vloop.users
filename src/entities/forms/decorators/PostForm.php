@@ -1,10 +1,10 @@
 <?php
 
 
-namespace vloop\user\entities\forms\decorators;
+namespace vloop\users\entities\forms\decorators;
 
 
-use vloop\user\entities\interfaces\Form;
+use vloop\users\entities\interfaces\Form;
 use Yii;
 use yii\base\Model;
 use yii\helpers\VarDumper;

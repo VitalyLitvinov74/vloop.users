@@ -1,10 +1,10 @@
 <?php
 
 
-namespace vloop\user\entities\rbac;
+namespace vloop\users\entities\rbac;
 
 
-use vloop\user\entities\interfaces\Rules;
+use vloop\users\entities\interfaces\Rules;
 
 class RulesRBAC implements Rules
 {

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace vloop\user\tables;
+namespace vloop\users\tables;
 
 
-use vloop\user\tables\query\BaseQuery;
+use vloop\users\tables\query\BaseQuery;
 use yii\db\ActiveRecord;
 use yii\web\IdentityInterface;
 

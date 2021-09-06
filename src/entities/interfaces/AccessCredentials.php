@@ -1,10 +1,10 @@
 <?php
 
 
-namespace vloop\user\entities\interfaces;
+namespace vloop\users\entities\interfaces;
 
 
-use vloop\user\entities\rbac\Role;
+use vloop\users\entities\rbac\Role;
 
 interface AccessCredentials extends \Iterator
 {

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace vloop\user\entities\forms;
+namespace vloop\users\entities\forms;
 
 
 use yii\rest\Serializer;

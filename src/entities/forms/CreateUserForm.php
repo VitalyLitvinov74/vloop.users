@@ -1,10 +1,10 @@
 <?php
 
 
-namespace vloop\user\entities\forms;
+namespace vloop\users\entities\forms;
 
 
-use vloop\user\tables\TableUsers;
+use vloop\users\tables\TableUsers;
 use yii\base\Model;
 use yii\helpers\VarDumper;
 

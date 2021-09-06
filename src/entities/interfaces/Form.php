@@ -1,7 +1,7 @@
 <?php
 
 
-namespace vloop\user\entities\interfaces;
+namespace vloop\users\entities\interfaces;
 
 
 use yii\base\Model;

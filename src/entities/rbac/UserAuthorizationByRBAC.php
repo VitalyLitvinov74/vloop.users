@@ -1,12 +1,12 @@
 <?php
 
 
-namespace vloop\user\entities\rbac;
+namespace vloop\users\entities\rbac;
 
 
-use vloop\user\entities\interfaces\AccessCredential;
-use vloop\user\entities\interfaces\UserAuthorization;
-use vloop\user\entities\interfaces\User;
+use vloop\users\entities\interfaces\AccessCredential;
+use vloop\users\entities\interfaces\UserAuthorization;
+use vloop\users\entities\interfaces\User;
 use Yii;
 
 class UserAuthorizationByRBAC implements UserAuthorization

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace vloop\user\entities\rbac;
+namespace vloop\users\entities\rbac;
 
 
-use vloop\user\entities\interfaces\AccessCredential;
+use vloop\users\entities\interfaces\AccessCredential;
 use Yii;
 
 class Role implements AccessCredential

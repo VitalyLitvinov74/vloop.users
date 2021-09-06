@@ -1,15 +1,15 @@
 <?php
 
 
-namespace vloop\user\controllers;
+namespace vloop\users\controllers;
 
-use vloop\user\entities\forms\CreateUserForm;
-use vloop\user\entities\forms\decorators\PostForm;
-use vloop\user\entities\forms\LoginForm;
-use vloop\user\entities\user\decorators\RestUser;
-use vloop\user\entities\user\decorators\RestUsers;
-use vloop\user\entities\user\NullUser;
-use vloop\user\entities\user\Users;
+use vloop\users\entities\forms\CreateUserForm;
+use vloop\users\entities\forms\decorators\PostForm;
+use vloop\users\entities\forms\LoginForm;
+use vloop\users\entities\user\decorators\RestUser;
+use vloop\users\entities\user\decorators\RestUsers;
+use vloop\users\entities\user\NullUser;
+use vloop\users\entities\user\Users;
 use Yii;
 use yii\filters\AccessControl;
 use yii\filters\auth\QueryParamAuth;

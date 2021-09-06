@@ -1,10 +1,10 @@
 <?php
 
 
-namespace vloop\user\entities\user;
+namespace vloop\users\entities\user;
 
 
-use vloop\user\entities\interfaces\User;
+use vloop\users\entities\interfaces\User;
 
 class NullUser implements User
 {

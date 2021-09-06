@@ -1,13 +1,13 @@
 <?php
 
 
-namespace vloop\user\entities\user;
+namespace vloop\users\entities\user;
 
 use Faker\ORM\Spot\ColumnTypeGuesser;
-use vloop\user\entities\interfaces\User;
-use vloop\user\entities\interfaces\Users as UsersInterface;
-use vloop\user\entities\user\decorators\StaticUser;
-use vloop\user\tables\TableUsers;
+use vloop\users\entities\interfaces\User;
+use vloop\users\entities\interfaces\Users as UsersInterface;
+use vloop\users\entities\user\decorators\StaticUser;
+use vloop\users\tables\TableUsers;
 use Yii;
 use yii\base\Exception;
 

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace vloop\user\entities\rbac;
+namespace vloop\users\entities\rbac;
 
 
-use vloop\user\entities\common\IteratorAbstract;
+use vloop\users\entities\common\IteratorAbstract;
 
 class Roles extends IteratorAbstract
 {

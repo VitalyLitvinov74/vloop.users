@@ -1,11 +1,11 @@
 <?php
 
 
-namespace vloop\user\entities\rbac;
+namespace vloop\users\entities\rbac;
 
 
-use vloop\user\entities\common\IteratorAbstract;
-use vloop\user\entities\interfaces\AccessCredential;
+use vloop\users\entities\common\IteratorAbstract;
+use vloop\users\entities\interfaces\AccessCredential;
 
 class Permission implements AccessCredential
 {

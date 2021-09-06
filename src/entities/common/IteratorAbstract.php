@@ -1,7 +1,7 @@
 <?php
 
 
-namespace vloop\user\entities\common;
+namespace vloop\users\entities\common;
 
 
 abstract class IteratorAbstract implements \Iterator

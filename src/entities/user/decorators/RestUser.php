@@ -1,12 +1,12 @@
 <?php
 
 
-namespace vloop\user\entities\user\decorators;
+namespace vloop\users\entities\user\decorators;
 
 
 use Symfony\Component\Console\Exception\LogicException;
-use vloop\user\entities\interfaces\User;
-use vloop\user\tables\TableUsers;
+use vloop\users\entities\interfaces\User;
+use vloop\users\tables\TableUsers;
 use Yii;
 use yii\base\Exception;
 use yii\helpers\VarDumper;
