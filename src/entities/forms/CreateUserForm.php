@@ -36,7 +36,11 @@ class CreateUserForm extends Model
         }
     }
 
-    private function createLogin(string $login = '')
+    /**
+     * @param string $login
+     * @return string|string
+     */
+    private function createLogin(string $login = "")
     {
         if (!$login) {
             $lastID = $this->lastId() + 1;
