@@ -4,14 +4,14 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "68d4d31930a82d22902892827746dbb8",
+    "content-hash": "ecf9bb0be56f6a0d7e1a164d7060f2cd",
     "packages": [
         {
             "name": "bower-asset/inputmask",
             "version": "3.3.11",
             "source": {
                 "type": "git",
-                "url": "git@github.com:RobinHerbots/Inputmask.git",
+                "url": "https://github.com/RobinHerbots/Inputmask.git",
                 "reference": "5e670ad62f50c738388d4dcec78d2888505ad77b"
             },
             "dist": {
@@ -250,6 +250,55 @@
             "time": "2020-10-15T08:29:30+00:00"
         },
         {
+            "name": "vloop/entities",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/VitalyLitvinov74/vloop.entities.git",
+                "reference": "9995fcbb98051a3c77e693e633c02fa96049aca9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/VitalyLitvinov74/vloop.entities/zipball/9995fcbb98051a3c77e693e633c02fa96049aca9",
+                "reference": "9995fcbb98051a3c77e693e633c02fa96049aca9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "default-branch": true,
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "vloop\\entities\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vitaly Litvinov",
+                    "email": "support@tirrs.ru",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Package",
+            "keywords": [
+                "Tasks",
+                "module",
+                "problems",
+                "yii2"
+            ],
+            "support": {
+                "issues": "https://github.com/VitalyLitvinov74/vloop.entities/issues",
+                "source": "https://github.com/VitalyLitvinov74/vloop.entities/tree/master"
+            },
+            "time": "2021-10-20T07:55:39+00:00"
+        },
+        {
             "name": "yiisoft/yii2",
             "version": "2.0.43",
             "source": {
@@ -451,7 +500,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "vloop/entities": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

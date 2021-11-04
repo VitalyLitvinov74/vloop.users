@@ -14,6 +14,9 @@ class UserModule extends Module
     {
         parent::init();
         $this->controllerNamespace = 'vloop\users\controllers';
+        Yii::$app->request->parsers = [
+            'application/json' => 'yii\web\JsonParser',
+        ];
         Yii::$app->setComponents([
             'authManager' => [
                 'class' => 'yii\rbac\DbManager',

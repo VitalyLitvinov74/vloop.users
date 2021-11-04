@@ -3,6 +3,7 @@
 
 namespace vloop\users\controllers;
 
+use phpDocumentor\Reflection\DocBlock\Tags\Var_;
 use vloop\users\entities\forms\CreateUserForm;
 use vloop\users\entities\forms\decorators\PostForm;
 use vloop\users\entities\forms\LoginForm;
@@ -10,9 +11,12 @@ use vloop\users\entities\user\decorators\RestUser;
 use vloop\users\entities\user\decorators\RestUsers;
 use vloop\users\entities\user\NullUser;
 use vloop\users\entities\user\Users;
+use vloop\users\oop\entities\UsersSQL;
 use Yii;
 use yii\filters\AccessControl;
 use yii\filters\auth\QueryParamAuth;
+use yii\helpers\Url;
+use yii\helpers\VarDumper;
 use yii\rest\Controller;
 
 class UserController extends Controller
@@ -46,7 +50,6 @@ class UserController extends Controller
 
     public function actionLogin()
     {
-        //TODO: слишком много логики в контроллере. Упростить на след. этапе.
         $post = new PostForm(
             $form = new LoginForm()
         );
@@ -60,6 +63,7 @@ class UserController extends Controller
                 ->login($form->password)
             ;
         }
+
         $restNull = new RestUser(
             new NullUser($form->errors),
             ['errors']

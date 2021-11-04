@@ -18,4 +18,12 @@ class LoginForm extends Model
             [['login', 'password'], 'string', 'max' => 255, 'min' => 4]
         ];
     }
+
+    public function attributeLabels()
+    {
+        return [
+            'login' => 'Логин',
+            'password' => 'Пароль'
+        ];
+    }
 }

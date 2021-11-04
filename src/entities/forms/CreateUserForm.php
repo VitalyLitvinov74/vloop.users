@@ -22,6 +22,15 @@ class CreateUserForm extends Model
         ];
     }
 
+    public function attributeLabels()
+    {
+        return [
+            'name' => 'Имя',
+            'login' => 'Логин',
+            'password' => 'Пароль'
+        ];
+    }
+
     /**
      * Устанавливаем значения по дефолту
     */

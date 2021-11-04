@@ -17,6 +17,7 @@
   ],
   "require": {
     "php": ">=7.1",
+    "vloop/entities": "dev-master",
     "yiisoft/yii2": "~2.0.0"
   },
   "autoload": {
