@@ -24,6 +24,9 @@ class UserController extends Controller
     public function behaviors()
     {
         $behaviors = parent::behaviors();
+        Yii::$app->request->parsers = [
+            'application/json' => 'yii\web\JsonParser',
+        ];
         $behaviors['access'] = [
             'class' => AccessControl::class,
             'only' => ['login', 'logout', 'create'],
@@ -81,7 +84,7 @@ class UserController extends Controller
         if ($post->validated()) {
             $users = new RestUsers(
                 new Users(),
-                ['name', 'login', 'errors']
+                ['name', 'access_token',  'login', 'errors']
             );
             $newUser = $users
                 ->registerNew(
